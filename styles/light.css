@@ -34,3 +34,7 @@
 .page.theme_light .rec {
   display: none;
 }
+
+.page.theme_auto .rec {
+  display: none;
+}

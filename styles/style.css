@@ -141,8 +141,8 @@
 .why {
   display: grid;
   grid-template-columns: 1fr 66%;
-  margin-block-start: 60px;
   gap: 20px;
+  margin-block-start: 60px;
 }
 
 .why__card-list {
@@ -231,28 +231,6 @@
   object-fit: cover;
 }
 
-.sunset-image {
-  grid-column-start: 1;
-  grid-column-end: span 2;
-}
-
-.ice-cream-image {
-  grid-column-start: 3;
-  grid-row-start: 2;
-  grid-row-end: span 2;
-}
-
-.tape-image {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: span 2;
-}
-
-.street-image {
-  grid-column-start: 2;
-  grid-column-end: span 2;
-}
-
 .footer {
   position: relative;
   display: flex;
@@ -265,9 +243,33 @@
 }
 
 .footer-title {
+  color: var(--title-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-shadow: 2px 2px 0 var(--accent-color);
-  color: var(--title-color);
+}
+
+@media (width > 375px) {
+  .sunset-image {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
+
+  .ice-cream-image {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+  }
+
+  .tape-image {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+  }
+
+  .street-image {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+  }
 }
 
 @media (width <= 768px) {
@@ -331,8 +333,8 @@
   }
 
   .why {
-    margin-block-start: 40px;
     grid-template-columns: 100%;
+    margin-block-start: 40px;
   }
 
   .how {
@@ -354,8 +356,8 @@
     grid-template-columns: 100%;
     grid-template-rows: repeat(6, min-content);
     grid-auto-flow: column;
-    margin-block-start: 50px;
     gap: 10px;
+    margin-block-start: 50px;
   }
 
   .galary .card__title {
@@ -363,31 +365,9 @@
     grid-column-end: 1;
   }
 
-  .galary-image {
-    grid-column-start: 1;
-  }
-
-  .sunset-image {
-    grid-column-end: 1;
-  }
-
-  .ice-cream-image {
-    grid-row-start: 3;
-    grid-row-end: 3;
-  }
-
-  .tape-image {
-    grid-row-start: 4;
-    grid-row-end: 4;
-  }
-
-  .street-image {
-    grid-column-end: 1;
-  }
-
   .footer {
-    padding: 10px;
     margin-block-start: 40px;
+    padding: 10px;
   }
 
   .footer-title {

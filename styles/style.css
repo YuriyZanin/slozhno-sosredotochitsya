@@ -205,10 +205,20 @@
   margin-block-start: 80px;
 }
 
+.card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .how__card-list {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 20px;
+}
+
+.how__card-list .title-decor {
+  font-weight: normal;
 }
 
 .galary {
@@ -220,7 +230,7 @@
   margin-block-start: 80px;
 }
 
-.galary .card__title {
+.galary .title-decor {
   grid-column-start: 1;
   grid-column-end: span 3;
 }
@@ -360,7 +370,7 @@
     margin-block-start: 50px;
   }
 
-  .galary .card__title {
+  .galary .title-decor {
     grid-column-start: 1;
     grid-column-end: 1;
   }

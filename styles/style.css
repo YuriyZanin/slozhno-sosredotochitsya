@@ -33,10 +33,7 @@
   margin: 8px 0 0 10px;
   border-radius: 50%;
   box-shadow: 0 0 4px 2px var(--accent-color);
-  fill: var(--accent-color);
   background-color: var(--accent-color);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .header {

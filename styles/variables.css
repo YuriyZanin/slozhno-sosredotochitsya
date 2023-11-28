@@ -7,9 +7,9 @@
   --accent-color: #ff0070;
   --accent-text-color: #000028;
   --title-color: #db00ff;
-  --text-color: #F1B2CE;
+  --text-color: #f1b2ce;
   --decoration-color: #ff0070;
-  --button-hover-color: rgba(255, 0, 112, 0.40);
+  --button-hover-color: rgba(255, 0, 112, 0.4);
   --background-color: #000028;
-  --background-image: url(../images/cover-image.png);
+  --background-image: url(../images/cover-image-dark.png);
 }

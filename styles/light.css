@@ -31,6 +31,10 @@
     --background-color: #fff1f7;
     --background-image: url(../images/cover-image-light.png);
   }
+
+  .rec:not(.theme_dark .rec) {
+    display: none;
+  }
 }
 
 .page.theme_light .rec {
